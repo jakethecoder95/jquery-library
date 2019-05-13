@@ -1,0 +1,25 @@
+.container {
+  width: 120vw;
+  display: flex;
+  flex-direction: row;
+  transform: translateX(-20vw);
+  transition: 250ms;
+}
+
+.menu-active {
+  transform: translateX(20vw);
+}
+
+.main {
+  width: 100vw;
+}
+
+.mobile-nav {
+  width: 20vw;
+}
+
+.menu-btn {
+  background: red;
+  color: white;
+  width: 70px;
+}
