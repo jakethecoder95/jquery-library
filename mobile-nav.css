@@ -1,13 +1,13 @@
 .container {
-  width: 120vw;
+  position: relative;
+  width: 160vw;
   display: flex;
   flex-direction: row;
-  transform: translateX(-20vw);
+  transform: translateX(-60.6vw);
   transition: 250ms;
 }
-
 .menu-active {
-  transform: translateX(20vw);
+  transform: translateX(0vw);
 }
 
 .main {
@@ -15,7 +15,7 @@
 }
 
 .mobile-nav {
-  width: 20vw;
+  width: 60vw;
 }
 
 .menu-btn {
